@@ -1,3 +1,4 @@
+
 {
   "name": "aarogya-drishti",
   "version": "0.1.0",
@@ -23,8 +24,7 @@
     "db:backup": "npm run db:backup --workspace server",
     "db:restore": "npm run db:restore --workspace server",
     "backup": "bash scripts/backup.sh",
-    "restore": "bash scripts/restore.sh",
-    "prepare": "husky"
+    "restore": "bash scripts/restore.sh"
   },
   "devDependencies": {
     "concurrently": "^9.1.2",
